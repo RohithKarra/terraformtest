@@ -1,5 +1,6 @@
 variable "key_name" {
   description = "cicd"
+  default = "cicd"
 }
 
 variable "aws_region" {
